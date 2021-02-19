@@ -1,4 +1,5 @@
 # Tiny Monitor Frontend
 
-Repository:  **[https://github.com/GSCloud/mini](https://github.com/krustowski/tiny-monitor-frontend)**  
+Web: **[https://monitor.gscloud.cz]**
+Repository:  **[https://github.com/krustowski/tiny-monitor-frontend]**  
 Distributed under **MIT** license.

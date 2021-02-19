@@ -1,31 +1,26 @@
-### TESSERACT MINI
+### TINY MONITOR
 
 # uncomment to force debug !!!
-#dbg: TRUE
+dbg: TRUE
 
 # CORE
-app: mini
+app: tinymonitor
 date_default_timezone: "Europe/Prague"
 project: TESSERACT
 secret_cookie_key: secure.key
 version: v1
-canonical_url: "https://mini.gscloud.cz/"
-# BETA
-#canonical_url: "https://bmini.gscloud.cz/"
+canonical_url: "https://monitor.gscloud.cz/"
 
 # GCP ID
 gcp_project_id: "gscloudcz-163314"
 
 # Google OAUTH 2.0
-goauth_origin: "https://mini.gscloud.cz"
-goauth_redirect: "https://mini.gscloud.cz/login"
-# BETA
-#goauth_origin: "https://bmini.gscloud.cz"
-#goauth_redirect: "https://bmini.gscloud.cz/login"
+goauth_origin: "https://monitor.gscloud.cz"
+goauth_redirect: "https://monitor.gscloud.cz/login"
 
 # local Google OAUTH 2.0
-local_goauth_origin: "http://localhost:8020"
-local_goauth_redirect: "http://localhost:8020/login"
+local_goauth_origin: "http://localhost:8022"
+local_goauth_redirect: "http://localhost:8022/login"
 
 # Google properties
 google: [
@@ -34,18 +29,18 @@ google: [
 
 # ALPHA/BETA
 alpha_hosts: [
-  mini
-  amini.gscloud.cz
+  monitor
+  amonitor.gscloud.cz
 ]
 beta_hosts: [
-  mini
-  bmini.gscloud.cz
+  monitor
+  bmonitor.gscloud.cz
 ]
 multisite_profiles: [
   default: [
-    mini
-    amini.gscloud.cz
-    bmini.gscloud.cz
+    monitor
+    amonitor.gscloud.cz
+    bmonitor.gscloud.cz
   ]
 ]
 
@@ -60,6 +55,6 @@ routers: [
 # localization
 lang: en
 l:
-  title: "Tesseract MINI"
-  author: "Fred Brooker @ GS Cloud Ltd."
+  title: "Tiny Monitor"
+  author: "Fred Brooker & krustowski @ GS Cloud Ltd."
   noscript: "Please enable JavaScript!"
