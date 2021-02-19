@@ -1,6 +1,6 @@
 {
-  "short_name": "MINI",
-  "name": "Tesseract MINI",
+  "short_name": "TinyMon",
+  "name": "Tiny Monitor",
   "icons": [{
       "src": "/img/favicon-192.png",
       "type": "image/png",
