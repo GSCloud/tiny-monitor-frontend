@@ -49,7 +49,7 @@ gulp:
 
 push:
 	@echo "🔨 \e[1;32m Pushing image\e[0m"
-	@docker push gscloudcz/tesseract-mini:latest
+	@docker push gscloudcz/tiny-monitor-frontend:latest
 
 testrun:
 	@echo "🔨 \e[1;32m Testing image\e[0m"
