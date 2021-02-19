@@ -49,7 +49,7 @@ gulp:
 
 push:
 	@echo "🔨 \e[1;32m Pushing image\e[0m"
-	@docker push gscloudcz/tiny-monitor-frontend:latest
+	@docker push gscloudcz/tiny-monitor:latest
 
 testrun:
 	@echo "🔨 \e[1;32m Testing image\e[0m"
@@ -58,4 +58,4 @@ testrun:
 du:
 	@bash ./bin/update_docker.sh
 
-everything: update sync
+everything: update test sync
