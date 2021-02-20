@@ -1,7 +1,7 @@
 ### TINY MONITOR
 
 # uncomment to force debug !!!
-dbg: TRUE
+#dbg: TRUE
 
 # CORE
 app: tiny-monitor
@@ -25,19 +25,6 @@ local_goauth_redirect: "http://localhost:8022/login"
 # Google properties
 google: [
 #  UA: "UA-89950317-17"
-]
-
-# ALPHA/BETA
-alpha_hosts: [
-  monitor
-]
-beta_hosts: [
-  monitor
-]
-multisite_profiles: [
-  default: [
-    monitor
-  ]
 ]
 
 # cache profiles

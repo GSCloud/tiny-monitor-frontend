@@ -1,12 +1,16 @@
+<style>{{>xbody_css_debug}}</style>
+
 <div class="container">
-  <h1 class="center">{{ l.title }}</h1>
-  <div class="container center">
-    <img alt="logo" src="{{cdn}}/img/logo.png">
-  </div>
-  <div class="clearfix" style="padding:1rem"></div>
-<!-- login / logout -->
-  <div class="container center">
-    {{^user.id}}{{>login}}{{/user.id}}{{#user.id}}{{>logout}}{{/user.id}}
+  <div class="row">
+    <h1 class="center">{{ l.title }}</h1>
+    <div class="container center">
+      <img alt="logo" width="90%" src="{{cdn}}/img/logo.png">
+    </div>
+    <div class="clearfix" style="padding:1rem"></div>
+    <!-- login / logout -->
+    <div class="container center">
+      {{^user.id}}{{>login}}{{/user.id}}{{#user.id}}{{>logout}}{{/user.id}}
+    </div>
   </div>
 </div>
 
