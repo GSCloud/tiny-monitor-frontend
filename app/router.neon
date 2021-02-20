@@ -1,7 +1,7 @@
 home:
   language: en
   path: /
-  presenter: mini
+  presenter: tiny
   sitemap: true
 
 call1:
